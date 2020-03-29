@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "https://helpcloud-api.herokuapp.com/api";
+const API_URL = "https://api.helpcloud.xyz/api";
 
 const formatErrors = errors => {
   const keys = Object.keys(errors);

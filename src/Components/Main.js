@@ -111,7 +111,7 @@ export default function Main({ reasons }) {
         <Empty
           style={{ margin: "20px", marginTop: "20px" }}
           description={
-            <span>No voulenteers were found matching your search</span>
+            <span>No volunteers were found matching your search</span>
           }
         ></Empty>
       )}

@@ -26,7 +26,7 @@ export default function Help({ listing, isVisible, setIsVisible }) {
       .then(res => {
         setIsVisible(false);
         addToast(
-          "Your request has been successfully submitted. The voulenteer will be notified.",
+          "Your request has been successfully submitted. The volunteer will be notified.",
           { appearance: "success" }
         );
       })
@@ -108,8 +108,8 @@ export default function Help({ listing, isVisible, setIsVisible }) {
           name="message"
           label={
             <span>
-              Your message to the voulenteer&nbsp;
-              <Tooltip title="You can use this message to personalize your request for help, and to give the voulenteer a better idea about your situation.">
+              Your message to the volunteer&nbsp;
+              <Tooltip title="You can use this message to personalize your request for help, and to give the volunteer a better idea about your situation.">
                 <QuestionCircleOutlined />
               </Tooltip>
             </span>
@@ -129,7 +129,7 @@ export default function Help({ listing, isVisible, setIsVisible }) {
           label={
             <span>
               Your phone number&nbsp;
-              <Tooltip title="The voulenteer will be given this phone number so that they can get in touch wiht you.">
+              <Tooltip title="The volunteer will be given this phone number so that they can get in touch wiht you.">
                 <QuestionCircleOutlined />
               </Tooltip>
             </span>

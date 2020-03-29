@@ -56,11 +56,11 @@ function App() {
                 Listings
               </Link>
               <Link
-                to="/voulenteer"
+                to="/volunteer"
                 className="navbar__menu__item"
                 onClick={handleMenuClose}
               >
-                Voulenteer
+                Volunteer
               </Link>
             </div>
           </div>
@@ -70,7 +70,7 @@ function App() {
         <div className="container--lg">
           <div className="main-content">
             <Switch>
-              <Route path="/voulenteer" exact>
+              <Route path="/volunteer" exact>
                 <Voulenteer reasons={reasons} />
               </Route>
               <Route path="/listings">

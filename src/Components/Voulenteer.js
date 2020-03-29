@@ -46,7 +46,7 @@ export default function Voulenteer({ reasons }) {
     voulenteer(values)
       .then(res =>
         addToast(
-          "Your voulenteer form has successfully been recieved. Please click the verification link we sent to your email to have your form be publicly available on our website.",
+          "Your volunteer form has successfully been recieved. Please click the verification link we sent to your email to have your form be publicly available on our website.",
           { appearance: "success" }
         )
       )
@@ -79,7 +79,7 @@ export default function Voulenteer({ reasons }) {
       <Grid item xs={12} md={8}>
         <Paper className={classes.paper}>
           <Typography>
-            <Title>Become a voulenteer</Title>
+            <Title>Become a volunteer</Title>
             <Paragraph>
               After filling out this form your listing will be displayed on our
               main page. Then, people that need to use the skills you offer can
